@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cloudtoss="http://cloudtoss.com" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Index for gavin</title>
+    <link href="" rel="self"/>
+    <description>list of scenes</description>
+    <atom:icon>http://www.cloudtoss.com/images/logo.png</atom:icon>
+    <item>
+      <title>gavinvideo</title>
+      <link href="http://local.gavinminami.com/gavin-video" rel="alternate"/>
+      <guid>http://local.gavinminami.com/gavin-video</guid>
+      <media:content type="image/jpeg" url="http://local.gavinminami.com/gavin-video"/>
+      <media:thumbnail url="http://dev-media.cloudtoss.com/images/video_thumb.jpg"/>
+      <media:description>sample description</media:description>
+      <media:keywords>gavin</media:keywords>
+      <cloudtoss:submitter>
+        <cloudtoss:username>gavin</cloudtoss:username>
+        <cloudtoss:user_image>http://www.gravatar.com/avatar/39fbf0b53ea6c08c5ea6c9742d745219?s=150</cloudtoss:user_image>
+      </cloudtoss:submitter>
+    </item>
+    <item>
+      <title>Fwd: some pics</title>
+      <link href="http://local.gavinminami.com/Fwd-some-pics" rel="alternate"/>
+      <guid>http://local.gavinminami.com/Fwd-some-pics</guid>
+      <media:content type="image/jpeg" url="http://local.gavinminami.com/Fwd-some-pics"/>
+      <media:thumbnail url="http://dev-media.cloudtoss.com/gavin/123b14c3845/thumb-small/DSC_0508.jpg"/>
+      <media:description>sample description</media:description>
+      <media:keywords>volleyball</media:keywords>
+      <cloudtoss:submitter>
+        <cloudtoss:username>gavin</cloudtoss:username>
+        <cloudtoss:user_image>http://www.gravatar.com/avatar/39fbf0b53ea6c08c5ea6c9742d745219?s=150</cloudtoss:user_image>
+      </cloudtoss:submitter>
+    </item>
+    <item>
+      <title>Volleyball</title>
+      <link href="http://local.gavinminami.com/volleyball" rel="alternate"/>
+      <guid>http://local.gavinminami.com/volleyball</guid>
+      <media:content type="image/jpeg" url="http://local.gavinminami.com/volleyball"/>
+      <media:thumbnail url="http://dev-media.cloudtoss.com/gavin/123c1a8a75b/thumb-small/DSC_0588.jpg"/>
+      <media:description>sample description</media:description>
+      <media:keywords>beach,volleyball</media:keywords>
+      <cloudtoss:submitter>
+        <cloudtoss:username>gavin</cloudtoss:username>
+        <cloudtoss:user_image>http://www.gravatar.com/avatar/39fbf0b53ea6c08c5ea6c9742d745219?s=150</cloudtoss:user_image>
+      </cloudtoss:submitter>
+    </item>
+  </channel>
+</rss>
