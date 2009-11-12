@@ -3,11 +3,10 @@
 .loadpath
 .classpath
 .settings/
-rails/config/aws.yml
-rails/config/amazon_s3.yml
-rails/config/mailer.yml
-rails/log/*.log
-rails/tmp/**/*
-rails/db/*.sqlite3
+config/aws.yml
+config/amazon_s3.yml
+config/mailer.yml
+*.log
+tmp/**/*
+db/*.sqlite3
 .tmp*
-target/
