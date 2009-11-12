@@ -1,0 +1,32 @@
+				<div id="template" style="height:150px;float:left;font-size:12px;font-weight:600;width: 200px;margin: 0 1px 1px 0;align:center;background-color:#222;">
+				</div>
+		<script language="javascript">
+			$(document).ready(function(result) {
+					$("#template").hide();				
+				
+				
+$.getJSON('http://pipes.yahoo.com/pipes/pipe.run?_id=8147d4d48b4496ec40e3d8075ff3e327&_render=json&feed=<%= @feed %>&_callback=?',
+				function(data){
+					$.each(data.value.items, function(i,item)
+					{
+							var thumbnailUrl = item['media:thumbnail'].url;
+							var title = item['title'];
+				            var link = item.link.href;
+							var img = $("<img/>").attr("src", thumbnailUrl).attr("border","0").attr("height","100");
+							
+							
+							var item = $("#template").clone().attr("id","item" + i);
+							
+							$("<div/>").addClass("itemThumb").append(img).appendTo(item);
+							$("<div/>").addClass("itemTitle").append(title).appendTo(item);
+							
+							$(item).appendTo("#container");
+							$(item).wrap("<a href='" + link + "'></a>");
+							$(item).fadeIn(2000);
+				    });
+
+
+					$('#container a').lightBox();
+				});
+			});
+		</script>

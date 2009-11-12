@@ -1,0 +1,1047 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 00:37:52) [GET]
+
+ActionController::RoutingError (No route matches "/photos/new-york" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-11-10 00:47:31) [GET]
+  Parameters: {"id"=>"new-york"}
+
+NameError (uninitialized constant PhotosController):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (23.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:49:11) [GET]
+  Parameters: {"id"=>"new-york"}
+
+ActionController::UnknownAction (No action responded to show. Actions: ):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:50:52) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:53:51) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:58:30) [GET]
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:58:34) [GET]
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:58:56) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 00:59:39) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:23:09) [GET]
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:23:11) [GET]
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-10 08:26:33) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-10 08:28:09) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:32:30) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:36:23) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:37:41) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:38:37) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 08:39:49) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:27:21) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.5.pack.js" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.lightbox-0.5.pack.js" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:30:11) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:30:11) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:31:41) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:31:41) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:31:45) [GET]
+  Parameters: {"id"=>"lightbox-ico-loading"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:31:45) [GET]
+  Parameters: {"id"=>"lightbox-btn-close"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:31:46) [GET]
+  Parameters: {"id"=>"lightbox-blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:32:30) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:32:30) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:32:32) [GET]
+  Parameters: {"id"=>"lightbox-ico-loading"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:32:32) [GET]
+  Parameters: {"id"=>"lightbox-btn-close"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:32:33) [GET]
+  Parameters: {"id"=>"lightbox-blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:33:01) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:33:01) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:34:41) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:34:41) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:35:43) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:35:43) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:35:48) [GET]
+  Parameters: {"id"=>"lightbox-ico-loading"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:35:48) [GET]
+  Parameters: {"id"=>"lightbox-btn-close"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:35:49) [GET]
+  Parameters: {"id"=>"lightbox-blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:36:38) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-10 09:36:38) [GET]
+
+ActionController::RoutingError (No route matches "/photos/stylesheets/jquery.lightbox-0.5.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:36:59) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:37:02) [GET]
+  Parameters: {"id"=>"lightbox-ico-loading"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:37:02) [GET]
+  Parameters: {"id"=>"lightbox-btn-close"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:37:03) [GET]
+  Parameters: {"id"=>"lightbox-blank"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#images to gif (for 127.0.0.1 at 2009-11-10 09:37:03) [GET]
+  Parameters: {"id"=>"lightbox-btn-next"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index and show):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 09:39:12) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:24:03) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:24:42) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:24:56) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:25:29) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:27:56) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:28:29) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-10 21:29:00) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 45ms (View: 44, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:23:56) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:24:57) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:26:13) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:26:29) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:26:38) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:26:50) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:29:20) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 43ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:30:28) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 01:30:40) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 01:33:51) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 01:34:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 01:35:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 01:37:53) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 44ms (View: 42, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+/!\ FAILSAFE /!\  Wed Nov 11 01:51:53 -0800 2009
+  Status: 500 Internal Server Error
+  Illegal route: the :controller must be specified!
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/builder.rb:175:in `build'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:309:in `add_route'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:317:in `add_named_route'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:57:in `method_missing'
+    /Users/gavin/Documents/Aptana RadRails Workspace/gavinminami/config/routes.rb:41
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:226:in `draw'
+    /Users/gavin/Documents/Aptana RadRails Workspace/gavinminami/config/routes.rb:1
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:286:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:266:in `load!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:281:in `reload'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:59:in `reload_application'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 01:52:54) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 01:53:53) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 01:54:28) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:54:30) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:54:46) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:56:18) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:56:47) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:57:29) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:57:39) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 01:58:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 01:58:56) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 01:58:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 01:59:02) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 01:59:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 01:59:05) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 44ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:03:31) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:03:55) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:04:16) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:04:44) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:05:05) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:25:55) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 02:25:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/rss.gif" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:26:19) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:30:34) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:32:45) [GET]
+  Parameters: {"id"=>"new-york"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/new-york]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 02:37:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:37:22) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:37:30) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing BlogsController#index (for 127.0.0.1 at 2009-11-11 02:37:37) [GET]
+Rendering template within layouts/application
+Rendering blogs/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/blogs]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 02:37:39) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 02:37:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:37:42) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 02:37:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:41:40) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:42:46) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:43:34) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:43:52) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:44:36) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:44:53) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:45:08) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:46:29) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 02:46:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:46:40) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:46:42) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing BlogsController#index (for 127.0.0.1 at 2009-11-11 02:46:44) [GET]
+Rendering template within layouts/application
+Rendering blogs/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/blogs]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 02:46:45) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 02:47:39) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 02:47:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:47:59) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:48:35) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing BlogsController#index (for 127.0.0.1 at 2009-11-11 02:48:40) [GET]
+Rendering template within layouts/application
+Rendering blogs/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/blogs]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2009-11-11 02:48:41) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/contact]
+
+
+Processing BlogsController#index (for 127.0.0.1 at 2009-11-11 02:48:43) [GET]
+Rendering template within layouts/application
+Rendering blogs/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/blogs]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:48:43) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:48:45) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 02:48:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:48:51) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:48:52) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:49:13) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:49:15) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-11 02:49:23) [GET]
+
+ActionController::RoutingError (No route matches "/www.modulo5.com" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 02:51:22) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 02:52:14) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:52:28) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 02:54:33) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 09:21:30) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing PhotosController#show (for 127.0.0.1 at 2009-11-11 09:22:56) [GET]
+  Parameters: {"id"=>"washington-d-c-"}
+Rendering template within layouts/application
+Rendering photos/show
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.gavinminami.local/photos/washington-d-c-]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-11 09:24:59) [GET]
+Rendering template within layouts/application
+Rendering projects/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://www.gavinminami.local/projects]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-11-11 22:49:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://www.gavinminami.local/]
+
+
+Processing PhotosController#index (for 127.0.0.1 at 2009-11-11 22:49:47) [GET]
+Rendering template within layouts/application
+Rendering photos/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://www.gavinminami.local/photos]
